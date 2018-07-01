@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quiz_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="This is an educational app to check your knowledge of emergency procedures or actions to take in different emergency situations.
+            \nEach question carries a score of 10 marks, overall you will be scored over 100%. Any question you leave blank is given a score of 0.
+            \nHint: For Questions with checkboxes,you can choose more than one correct answer.
+            \nGoodluck!"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="@string/number1"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/number1_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/number1_option1" />
+
+            <RadioButton
+                android:id="@+id/number1_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/number1_option2" />
+
+            <RadioButton
+                android:id="@+id/number1_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/number1_option3" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimary"
+            android:labelFor="@+id/number2_answer"
+            android:padding="8dp"
+            android:text="@string/number2"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/number2_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/answerHint"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="@string/number3"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/number3_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/number3_option1" />
+
+            <RadioButton
+                android:id="@+id/number3_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/number3_option2" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimary"
+            android:labelFor="@+id/number4_answer"
+            android:padding="8dp"
+            android:text="@string/number4"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/number4_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/answerHint"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="@string/number5"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/number5_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number5_option1" />
+
+            <RadioButton
+                android:id="@+id/number5_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number5_option2" />
+
+            <RadioButton
+                android:id="@+id/number5_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number5_option3" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimary"
+            android:labelFor="@+id/number6_answer"
+            android:padding="8dp"
+            android:text="@string/number6"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/number6_answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/answerHint"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/number7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="@string/number7"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/number7_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number7_option1" />
+
+        <CheckBox
+            android:id="@+id/number7_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number7_option2" />
+
+        <CheckBox
+            android:id="@+id/number7_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number7_option3" />
+
+        <CheckBox
+            android:id="@+id/number7_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number7_option4" />
+
+
+        <TextView
+            android:id="@+id/number8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimary"
+            android:labelFor="@+id/number8_answer"
+            android:padding="8dp"
+            android:text="@string/number8"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/number8_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number8_option1" />
+
+        <CheckBox
+            android:id="@+id/number8_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number8_option2" />
+
+        <CheckBox
+            android:id="@+id/number8_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number8_option3" />
+
+        <CheckBox
+            android:id="@+id/number8_option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number8_option4" />
+
+
+        <TextView
+            android:id="@+id/number9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="@string/number9"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/number9_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number9_option1" />
+
+            <RadioButton
+                android:id="@+id/number9_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number9_option2" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/number10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="@string/number10"
+            android:textColor="@color/colorText1"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/number10_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number10_option1" />
+
+        <CheckBox
+            android:id="@+id/number10_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number10_option2" />
+
+        <CheckBox
+            android:id="@+id/number10_option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number10_option3" />
+
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="submitAnswers"
+            android:padding="8dp"
+            android:text="@string/submit_answers"
+            android:textColor="@color/colorText1" />
+    </LinearLayout>
+</ScrollView>

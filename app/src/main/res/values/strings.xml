@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="number1">1. What is the first step to take when you see a fire?</string>
+    <string name="number1_option1">Put it out.</string>
+    <string name="number1_option2">Evacuate</string>
+    <string name="number1_option3">Pull the fire alarm button</string>
+
+    <string name="number2">2. What safety item should you wear on every boat cruise?</string>
+    <string name="answerHint"> type your answer here </string>
+
+    <string name="number3">3. Is it safe to smoke in an aircraft toilet?</string>
+    <string name="number3_option1">Yes</string>
+    <string name="number3_option2">No</string>
+
+    <string name="number4">4. What number do you dial in case of an emergency?</string>
+
+    <string name="number5">5 What Kit is important in case of medical emergencies?</string>
+    <string name="number5_option1">First Aid Kit</string>
+    <string name="number5_option2">Make Up Kit</string>
+    <string name="number5_option3">Survival Kit</string>
+
+    <string name="number6">6. Before taking any drug, you must check for what?</string>
+
+    <string name="number7">7. Which of these conditions is immediately life threatening?</string>
+    <string name="number7_option1">Unconsciousness</string>
+    <string name="number7_option2">Fever</string>
+    <string name="number7_option3">Sweating</string>
+    <string name="number7_option4">No pulse</string>
+
+    <string name="number8">8. Children can be allowed near which of the following items?</string>
+    <string name="number8_option1">Plastic bags</string>
+    <string name="number8_option2">Toys</string>
+    <string name="number8_option3">Magnets and Buttons</string>
+    <string name="number8_option4">Food</string>
+
+
+    <string name="number9">9. What is the immediate treatment for a first degree burn?</string>
+    <string name="number9_option1">Soak the wound in cool water for five minutes or longer</string>
+    <string name="number9_option2">Rub the wound</string>
+
+    <string name="number10">10. What do you do when you see a Road Traffic Accident?</string>
+    <string name="number10_option1">Record the scene</string>
+    <string name="number10_option2">Try to help the victims</string>
+    <string name="number10_option3">Call any local emergency number</string>
+
+
+    <string name="submit_answers">Submit Answers</string>
+
+</resources>
